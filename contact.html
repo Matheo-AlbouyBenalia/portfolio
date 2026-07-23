@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Camille Duret | Cybersécurité, IA & Réseaux</title>
+<meta name="description" content="Contactez Camille Duret pour toute opportunité d'alternance, de mission ou de collaboration en cybersécurité, IA et réseaux." />
+<link rel="canonical" href="https://camille-duret-portfolio.exemple.fr/contact.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Contact — Camille Duret" />
+<meta property="og:description" content="Une opportunité, une question ? Écrivez-moi." />
+<meta property="og:url" content="https://camille-duret-portfolio.exemple.fr/contact.html" />
+<meta property="og:locale" content="fr_FR" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a href="#main" class="skip-link">Aller au contenu principal</a>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Navigation principale">
+    <a href="index.html" class="logo" aria-label="Accueil — Camille Duret">
+      <span class="prompt">root@camille</span>:~$<span class="caret">&nbsp;</span>
+    </a>
+    <ul class="nav-links" data-nav-links>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Basculer entre thème clair et sombre"></button>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-label="Ouvrir le menu de navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">send --message</p>
+      <h1>Contact</h1>
+      <p>Une opportunité d'alternance, une mission ponctuelle ou simplement une question technique ? Le canal est ouvert.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-grid">
+
+      <form class="reveal" data-contact-form novalidate aria-label="Formulaire de contact">
+        <div class="field">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error" />
+          <p class="field-error" id="name-error" data-error-for="name" role="alert"></p>
+        </div>
+        <div class="field">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error" />
+          <p class="field-error" id="email-error" data-error-for="email" role="alert"></p>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
+          <p class="field-error" id="message-error" data-error-for="message" role="alert"></p>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Envoyer le message</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-info reveal">
+        <div>
+          <h2>Écrire directement</h2>
+          <a class="email mt-2" href="mailto:camille.duret@exemple.fr">camille.duret@exemple.fr</a>
+        </div>
+        <div>
+          <h2>Réseaux</h2>
+          <nav class="social-list mt-2" aria-label="Réseaux sociaux professionnels">
+            <a href="https://linkedin.com/in/camille-duret" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="https://github.com/camille-duret" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://behance.net/camille-duret" target="_blank" rel="noopener noreferrer">Behance ↗</a>
+          </nav>
+        </div>
+        <div class="availability-badge">
+          <span class="dot" aria-hidden="true"></span>
+          Réponse sous 48h ouvrées
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <p>© 2026 Camille Duret — Conçu &amp; codé à la main.</p>
+    <nav class="footer-social" aria-label="Réseaux sociaux">
+      <a href="https://linkedin.com/in/camille-duret" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/camille-duret" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://behance.net/camille-duret" target="_blank" rel="noopener noreferrer">Behance</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projets — Camille Duret | Cybersécurité, IA & Réseaux</title>
+<meta name="description" content="Découvrez 6 projets de Camille Duret en cybersécurité, développement IA et réseaux : détection d'intrusion, vision par ordinateur, applications sécurisées." />
+<link rel="canonical" href="https://camille-duret-portfolio.exemple.fr/projets.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Projets — Camille Duret" />
+<meta property="og:description" content="6 projets détaillés en cybersécurité, IA et réseaux." />
+<meta property="og:url" content="https://camille-duret-portfolio.exemple.fr/projets.html" />
+<meta property="og:locale" content="fr_FR" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a href="#main" class="skip-link">Aller au contenu principal</a>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Navigation principale">
+    <a href="index.html" class="logo" aria-label="Accueil — Camille Duret">
+      <span class="prompt">root@camille</span>:~$<span class="caret">&nbsp;</span>
+    </a>
+    <ul class="nav-links" data-nav-links>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projets.html" aria-current="page">Projets</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Basculer entre thème clair et sombre"></button>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-label="Ouvrir le menu de navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">ls -la ./projets</p>
+      <h1>Projets</h1>
+      <p>Six réalisations représentatives de mon triptyque cybersécurité / IA / réseaux, du prototype de recherche au déploiement en conditions réelles. Chaque étude de cas détaille le contexte, les choix techniques et les résultats.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="project-grid">
+
+        <article class="project-card reveal" id="projet-01">
+          <div class="project-thumb">
+            <span class="project-id">PRJ-01</span>
+            <img src="assets/project-parknow.jpg" alt="Interface de ParkNow détectant des places de parking libres et occupées via des polygones colorés" width="640" height="400" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>ParkNow — Détection de stationnement</h3>
+            <div class="tag-list"><span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">YOLOv8</span><span class="tag">Vision par ordinateur</span></div>
+            <p>Système de détection de places de parking en temps réel : cartographie des emplacements par polygones, classification d'occupation par YOLOv8 et lissage temporel par une classe de débounce à buffer circulaire pour éliminer le scintillement d'état.</p>
+            <a href="#" class="case-link">Voir l'étude de cas complète</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" id="projet-02">
+          <div class="project-thumb">
+            <span class="project-id">PRJ-02</span>
+            <img src="assets/project-navcom.jpg" alt="Écran d'application mobile NavCom affichant une carte de navigation communautaire" width="640" height="400" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>NavCom — Navigation communautaire</h3>
+            <div class="tag-list"><span class="tag">React Native</span><span class="tag">Mapbox</span><span class="tag">Node.js</span><span class="tag">IA prédictive</span></div>
+            <p>Application mobile de navigation en temps réel où les signalements d'utilisateurs alimentent un modèle de prédiction de trafic. Feuille de route en 4 phases, de la navigation MVP à la gamification.</p>
+            <a href="#" class="case-link">Voir l'étude de cas complète</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" id="projet-03">
+          <div class="project-thumb">
+            <span class="project-id">PRJ-03</span>
+            <img src="assets/project-docsecure.jpg" alt="Tableau de bord DocSecure, plateforme de gestion documentaire chiffrée" width="640" height="400" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>DocSecure — Gestion documentaire chiffrée</h3>
+            <div class="tag-list"><span class="tag">Next.js</span><span class="tag">AES-256</span><span class="tag">C#</span><span class="tag">OVH CDN</span></div>
+            <p>Plateforme sécurisée de documents sensibles : chiffrement/déchiffrement AES, rendu PDF via Kendo.js, migration C#/CSHTML et infrastructure CDN durcie. Nettoyage qualité via SonarQube.</p>
+            <a href="#" class="case-link">Voir l'étude de cas complète</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" id="projet-04">
+          <div class="project-thumb">
+            <span class="project-id">PRJ-04</span>
+            <img src="assets/project-ids.jpg" alt="Tableau de bord d'un système de détection d'intrusion réseau avec alertes en temps réel" width="640" height="400" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>NetSentinel — Détection d'intrusion réseau</h3>
+            <div class="tag-list"><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Wireshark</span><span class="tag">IDS</span></div>
+            <p>Système de détection d'anomalies sur trafic réseau combinant règles Snort et modèle de classification pour identifier les schémas d'intrusion inhabituels, avec tableau de bord d'alertes.</p>
+            <a href="#" class="case-link">Voir l'étude de cas complète</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" id="projet-05">
+          <div class="project-thumb">
+            <span class="project-id">PRJ-05</span>
+            <img src="assets/project-onboarding.jpg" alt="Écrans d'un parcours d'onboarding mobile premium, esthétique sombre et dorée" width="640" height="400" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>Onboarding Premium — Prototype UI mobile</h3>
+            <div class="tag-list"><span class="tag">HTML/CSS/JS</span><span class="tag">UI/UX</span><span class="tag">Trilingue FR/EN/ES</span></div>
+            <p>Parcours d'accueil mobile pour une application de luxe : esthétique sombre à accents champagne, prototype HTML interactif autonome et support trilingue.</p>
+            <a href="#" class="case-link">Voir l'étude de cas complète</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" id="projet-06">
+          <div class="project-thumb">
+            <span class="project-id">PRJ-06</span>
+            <img src="assets/project-pentest.jpg" alt="Rapport d'audit de sécurité présentant des vulnérabilités classées par criticité" width="640" height="400" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>Audit Interne — Test d'intrusion applicatif</h3>
+            <div class="tag-list"><span class="tag">Burp Suite</span><span class="tag">OWASP Top 10</span><span class="tag">Rapport technique</span></div>
+            <p>Audit de sécurité d'une application web interne : cartographie de surface d'attaque, exploitation contrôlée de vulnérabilités OWASP et remédiations priorisées par criticité.</p>
+            <a href="#" class="case-link">Voir l'étude de cas complète</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <div class="container text-center" style="max-width:640px;">
+      <h2>Un projet en tête ?</h2>
+      <p class="mt-2">Discutons de votre besoin en sécurité, IA appliquée ou infrastructure réseau.</p>
+      <div class="mt-4"><a href="contact.html" class="btn btn-primary">Me contacter</a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <p>© 2026 Camille Duret — Conçu &amp; codé à la main.</p>
+    <nav class="footer-social" aria-label="Réseaux sociaux">
+      <a href="https://linkedin.com/in/camille-duret" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/camille-duret" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://behance.net/camille-duret" target="_blank" rel="noopener noreferrer">Behance</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

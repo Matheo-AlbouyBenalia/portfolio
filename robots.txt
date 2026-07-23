@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://camille-duret-portfolio.exemple.fr/sitemap.xml
